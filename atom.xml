@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>南京晓庄学院-19计科(卓工)毕业留念</title>
+  
+  <subtitle>See you again</subtitle>
+  <link href="https://19cs-njxzc.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://19cs-njxzc.github.io/"/>
+  <updated>2022-04-25T07:45:51.627Z</updated>
+  <id>https://19cs-njxzc.github.io/</id>
+  
+  <author>
+    <name>顾佳凯</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毕业寄语</title>
+    <link href="https://19cs-njxzc.github.io/2022/04/19130104-graduation-letter.html"/>
+    <id>https://19cs-njxzc.github.io/2022/04/19130104-graduation-letter.html</id>
+    <published>2022-04-25T07:23:05.000Z</published>
+    <updated>2022-04-25T07:45:51.627Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
