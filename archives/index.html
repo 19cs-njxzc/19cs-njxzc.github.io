@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  
-  <meta name="keywords" content="毕业,南京晓庄学院,信息工程学院,计算机科学与技术">
-  
-  
-  <meta name="description" content="毕业留念站点">
-  
-  <title>
-    归档 |
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+     
+    <meta name="keywords" content="毕业,南京晓庄学院,信息工程学院,计算机科学与技术" />
+     
+    <meta name="description" content="毕业留念站点" />
     
-    19计科(卓工)毕业留念
-  </title>
-  <!-- Icon -->
-  
-    <link rel="shortcut icon" href="/favicon.ico">
+    <title>归档 |  19计科(卓工)毕业留念</title>
+    <!-- Icon -->
     
-  
+    <link rel="shortcut icon" href="/favicon.ico" />
+     
 <link rel="stylesheet" href="/css/style.css">
-
-  
   
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
   
 <script src="/js/pace.min.js"></script>
 
-<meta name="generator" content="Hexo 6.1.0"></head>
+    <!-- require APlayer -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    <!-- require MetingJS -->
+    <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+  <meta name="generator" content="Hexo 6.1.0"></head>
+</html>
+
 
 <body>
   <main class="content">
@@ -61,7 +62,7 @@
       
 
 <h2 itemprop="name">
-  <a class="archive-article-title" href="/2022/04/hello-world.html">Hello World</a>
+  <a class="archive-article-title" href="/2022/04/hello-world.html">毕业寄语</a>
 </h2>
 
 
@@ -83,23 +84,53 @@
 </section>
     <footer class="footer">
   <div class="outer">
-    <div class="float-right">
-      <ul class="list-inline">
+    <div class="float-right"><ul class="list-inline">
   
   <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
   
-</ul>
-    </div>
+</ul></div>
     <ul class="list-inline">
       <li>19计科(卓工)毕业留念 &copy; 2022</li>
       
-        <li></li>
+      <li></li>
       
-      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
-      <li>theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+      <li>
+        Powered by
+        <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </li>
+      <li>
+        theme 
+        <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a>
+      </li>
     </ul>
   </div>
+  <div id="player"></div>
+  <script>
+    const ap = new APlayer({
+      container: document.getElementById("player"),
+      autoplay: false,
+      theme: "#FADFA3",
+      loop: "all",
+      order: "random",
+      preload: "auto",
+      volume: 0.7,
+      mutex: true,
+      fixed: true,
+      listFolded: true,
+      listMaxHeight: 90,
+      audio: [
+        {
+          name: "剩下的盛夏",
+          artist: "TFBOYS",
+          url: "https://qiniuyun.gujiakai.top/music/mp3/%E5%89%A9%E4%B8%8B%E7%9A%84%E7%9B%9B%E5%A4%8F.mp3",
+          cover: "https://qiniuyun.gujiakai.top/music/cover/%E5%89%A9%E4%B8%8B%E7%9A%84%E7%9B%9B%E5%A4%8F.jpg",
+          theme: "#ebd0c2",
+        },
+      ],
+    });
+  </script>
 </footer>
+
   </main>
   <aside class="sidebar">
     <button class="navbar-toggle"></button>
