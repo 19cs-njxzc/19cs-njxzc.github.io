@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>南晓-19计科(卓工)毕业留念</title>
+    <link>https://19cs.njxzc.org.cn/</link>
+    
+    <atom:link href="https://19cs.njxzc.org.cn/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>毕业留念站点</description>
+    <pubDate>Mon, 25 Apr 2022 07:45:51 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>毕业寄语</title>
+      <link>https://19cs.njxzc.org.cn/2022/04/graduation-letter.html</link>
+      <guid>https://19cs.njxzc.org.cn/2022/04/graduation-letter.html</guid>
+      <pubDate>Mon, 25 Apr 2022 07:23:05 GMT</pubDate>
+      
+      
+      
+      
+      
+      
+      <comments>https://19cs.njxzc.org.cn/2022/04/graduation-letter.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1241,7 +1241,7 @@ img {
 }
 .video-inner {
   position: absolute;
-  top: 50%;
+  top: 80px;
   left: 50%;
   transform: translate(-50%, -65%);
 }
