@@ -1121,7 +1121,7 @@ img {
 }
 @media (min-width: 768px) {
   .jumbotron {
-    margin-bottom: 6rem;
+    margin-bottom: 0;
   }
   .content {
     margin-right: 10rem;
