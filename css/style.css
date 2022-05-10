@@ -1250,6 +1250,12 @@ img {
   color: #fff;
   text-decoration: none;
 }
+.wb-title {
+  width: 100%;
+  height: auto;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+}
 .video-learn-more {
   position: absolute;
   z-index: 1;
@@ -1263,6 +1269,9 @@ img {
 }
 .video-learn-more a > .fe:hover {
   color: #1e3e3f;
+}
+h1 {
+  margin: 0px;
 }
 .search-form-wrap {
   position: fixed;
